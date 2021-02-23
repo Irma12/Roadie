@@ -1,19 +1,18 @@
-Project Issues plugin
+# Project issues plugin
+This plugin provides overview of all project issues, and also details for specific issue.
 
-![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Overview-first.png?raw=false)
-![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Overview-second.png?raw=true)
-![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/IssueDetails.png?raw=true)
+<img src="https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Overview-first.png" width="550px" height="400px">
 
-# Features
+## Features
 List all issues for the project
 Displays details about the issue
 
-# Prerequisites
-Add annotation to the yaml config file of a component.
+## Prerequisites
+Added annotation to the **yaml config file** of a component.
 
 ![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Annotations.png?raw=true)
 
-# How to run plugin
+## How to run plugin
 1. Go to http://localhost:3000/
 2. Click "Create Component"
 3. Click "Register Existing Component"
@@ -21,4 +20,7 @@ Add annotation to the yaml config file of a component.
   https://github.com/Irma12/Roadie/blob/main/roadie-app/catalog-info.yaml
 
 Issues tab should be visible in component.
+Overview and project issue information is on the first page, and clicking on an issue will lead you to issue details page.
+
+<img src="https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/IssueDetails.png" width="650px" height="400px">
 
