@@ -4,11 +4,30 @@ This plugin provides overview of all project issues, and also details for specif
 <img src="https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Overview-first.png" width="550px" height="400px">
 
 ## Features
-List all issues for the project
-Displays details about the issue
+- List all issues for the project
+- Displays details about the issue
 
-## Prerequisites
-Added annotation to the **yaml config file** of a component.
+## Steps to run plugin
+- Export plugin from the list of plugins from _packages/app/src/plugins.ts_
+```
+export { issuesPluginPlugin } from '@internal/plugin-issues-plugin'
+```
+- Import plugin in _packages/app/src/components/catalog/EntityPage.tsx_
+```
+ import { IssuesPluginPage } from '@internal/plugin-issues-plugin'`
+ const ServiceEntityPage = ({ entity }: { entity: Entity }) => (
+  <EntityPageLayout>
+   ...
+    <EntityPageLayout.Content
+      path="/ci-cd/*"
+      title="CI/CD"
+      element={<CICDSwitcher entity={entity} />}
+      ...
+    />
+    
+  ```
+
+- Add annotation to the **yaml config file** of a component.
 
 ![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Annotations.png?raw=true)
 
