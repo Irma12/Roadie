@@ -25,6 +25,7 @@ import {
 import {
   AboutCard, EntityPageLayout,
 } from '@backstage/plugin-catalog';
+import { IssuesPluginPage } from '@internal/plugin-issues-plugin';
 import {
   useEntity
 } from '@backstage/plugin-catalog-react';
@@ -82,6 +83,11 @@ const ServiceEntityPage = ({ entity }: { entity: Entity }) => (
       path="/"
       title="Overview"
       element={<OverviewContent entity={entity} />}
+    />
+    <EntityPageLayout.Content
+      path="/issues-plugin/*"
+      title="Issues"
+      element={<IssuesPluginPage entity={entity} />}
     />
     <EntityPageLayout.Content
       path="/ci-cd/*"
