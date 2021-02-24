@@ -19,9 +19,9 @@ export { issuesPluginPlugin } from '@internal/plugin-issues-plugin'
   <EntityPageLayout>
    ...
     <EntityPageLayout.Content
-      path="/ci-cd/*"
-      title="CI/CD"
-      element={<CICDSwitcher entity={entity} />}
+      path="/issues-plugin/*"
+      title="Issues"
+       element={<IssuesPluginPage entity={entity} />}
       ...
     />
     
