@@ -29,7 +29,20 @@ export { issuesPluginPlugin } from '@internal/plugin-issues-plugin'
 
 - Add annotation to the **yaml config file** of a component.
 
-![alt text](https://github.com/Irma12/Roadie/blob/main/roadie-app/plugins/images/Annotations.png?raw=true)
+```
+ apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: roadie-app
+  description: An example of a Backstage application.
+  annotations:
+    projectId: "1"
+spec:
+  type: service
+  owner: john@example.com
+  lifecycle: experimental
+    
+  ```
 
 ## How to run plugin
 1. Go to http://localhost:3000/
