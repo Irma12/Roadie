@@ -5,7 +5,7 @@ metadata:
   description: An example of a Backstage application.
   annotations:
     projectId: "1"
-    github.com/project-slug: irma12/roadie-app
+    github.com/project-slug: roadiehq/sample-service
 spec:
   type: service
   owner: john@example.com
