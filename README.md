@@ -1,4 +1,4 @@
-![headline](main/docs/assets/headline.png)
+![headline](docs/assets/headline.png)
 
 TESTTTTT 
 # Sample Service
