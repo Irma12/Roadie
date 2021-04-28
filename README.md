@@ -1,5 +1,5 @@
 ![headline](docs/assets/headline.png)
-![Image alt text](./headline.png)
+![Image alt text](./docs/assets/headline.png)
 
 TESTTTTT 
 # Sample Service
