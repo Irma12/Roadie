@@ -1,6 +1,7 @@
 ![headline](docs/assets/headline.png)
 
-TESTTTTT 
+- [Adopters](packages/somefolder/READMEOLD.md) - Companies already using Backstage 
+
 # Sample Service
 
 A sample service for testing build tools, displaying in Backstage, and whatever
