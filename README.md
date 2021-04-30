@@ -1,4 +1,4 @@
-![headline](docs/assets/headline.png)
+![headline](docs/assets/163561694_10221323895860144_9204507885467002918_n.jpg)
 
 - [Adopters](packages/somefolder/READMEOLD.md) - Companies already using Backstage 
 
