@@ -6,7 +6,7 @@ metadata:
   annotations:
     projectId: "1"
     github.com/project-slug: Irma12/Roadie
-    backstage.io/techdocs-ref: https://github.com/Irma12/Roadie/tree/main
+    backstage.io/techdocs-ref: url:https://github.com/RoadieHQ/sample-service/tree/main
 spec:
   type: service
   owner: john@example.com
