@@ -1,6 +1,6 @@
-![headline](docs/assets/163561694_10221323895860144_9204507885467002918_n.jpg)
+![headline](docs/assets/headline.png)
 
-- [Adopters](packages/somefolder/READMEOLD.md) - Companies already using Backstage 
+- [Adopters](docs/READMEOLD.md) - Companies already using Backstage 
 
 # Sample Service
 
