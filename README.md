@@ -1,6 +1,6 @@
 ![headline](docs/assets/headline.png)
 
-- [Adopters](docs/READMEOLD.md) - Companies already using Backstage 
+- [RAEDME](docs/READMEOLD.md) - Companies already using Backstage 
 
 # Sample Service
 
