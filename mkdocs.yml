@@ -2,3 +2,4 @@ site_name: 'irmas app'
 
 nav:
   - README: READMEOLD.md
+  - Home: index.md
