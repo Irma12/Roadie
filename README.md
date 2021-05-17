@@ -1,53 +1,65 @@
 ![headline](docs/assets/headline.png)
+![alt-text](docs/assets/headline.png "cc some-title")
 
-- [README](docs/READMEOLD.md) - Companies already using Backstage 
+# [Backstage](https://backstage.io)
 
-# Sample Service
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![](https://github.com/spotify/backstage/workflows/Frontend%20CI/badge.svg)
+[![Discord](https://img.shields.io/discord/687207715902193673)](https://discord.gg/EBHEGzX)
+![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+[![Codecov](https://img.shields.io/codecov/c/github/spotify/backstage)](https://codecov.io/gh/spotify/backstage)
+[![](https://img.shields.io/npm/v/@backstage/core?label=Version)](https://github.com/spotify/backstage/releases)
 
-A sample service for testing build tools, displaying in Backstage, and whatever
-else you might need it for.
+## What is Backstage?
 
-## Development
+[Backstage](https://backstage.io/) is an open platform for building developer portals. Powered by a centralized service catalog, Backstage restores order to your microservices and infrastructure. So your product teams can ship high-quality code quickly — without compromising autonomy.
 
-First add some secrets to the `.env` file in the root. See the `.env.sample` file for suggestions
-of required environment variables.
+Backstage unifies all your infrastructure tooling, services, and documentation to create a streamlined development environment from end to end.
 
-Then run it locally like this:
+![service-catalog](https://backstage.io/blog/assets/6/header.png)
 
-```shell
-yarn start
-curl :3000/
-```
+Out of the box, Backstage includes:
 
-## Building, packaging and deployment
+- [Backstage Service Catalog](https://backstage.io/docs/features/software-catalog/software-catalog-overview) for managing all your software (microservices, libraries, data pipelines, websites, ML models, etc.)
+- [Backstage Software Templates](https://backstage.io/docs/features/software-templates/software-templates-index) for quickly spinning up new projects and standardizing your tooling with your organization’s best practices
+- [Backstage TechDocs](https://backstage.io/docs/features/techdocs/techdocs-overview) for making it easy to create, maintain, find, and use technical documentation, using a "docs like code" approach
+- Plus, a growing ecosystem of [open source plugins](https://github.com/spotify/backstage/tree/master/plugins) that further expand Backstage’s customizability and functionality
 
-The sample-service is designed to be deployed on multiple platforms. For example,
-kubernetes via Helm and AWS Lambda.
+For more information go to [backstage.io](https://backstage.io) or join our [Discord chatroom](https://discord.gg/EBHEGzX).
 
-### Helm
+🎉 Backstage is a CNCF Sandbox project. Read the announcement [here](https://backstage.io/blog/2020/09/23/backstage-cncf-sandbox).
 
-Docker images are automatically built and pushed to Docker Hub by a GitHub action when
-new code is merged into the `master` branch.
+## Project roadmap
 
-The image will be tagged with the version in the `package.json`.
+A detailed project roadmap, including already delivered milestones, is available [here](https://backstage.io/docs/overview/roadmap).
 
-The repo name on Docker Hub is `roadiehq/sample-service`.
+## Getting Started
 
-There is a [helm chart for deployment to Kubernetes](https://github.com/RoadieHQ/helm-charts/tree/master/sample-service).
+Check out [the documentation](https://backstage.io/docs/getting-started) on how to start using Backstage.
 
-### AWS Lambda
+## Documentation
 
-Pre-requisites:
+- [Main documentation](https://backstage.io/docs)
+- [Service Catalog](https://backstage.io/docs/features/software-catalog/software-catalog-overview)
+- [Architecture](https://backstage.io/docs/overview/architecture-terminology) ([Decisions](https://backstage.io/docs/architecture-decisions/adrs-overview))
+- [Designing for Backstage](https://backstage.io/docs/dls/design)
+- [Storybook - UI components](https://backstage.io/storybook)
 
- 1. Install the aws cli (For homebrew, use: `brew install awscli`).
- 2. Authenticate using an access token and secret with `aws configure`.
+## Community
 
-```shell
-yarn run deploy:lambda
-```
+- [Discord chatroom](https://discord.gg/MUpMjP2) - Get support or discuss the project
+- [Good First Issues](https://github.com/spotify/backstage/contribute) - Start here if you want to contribute
+- [RFCs](https://github.com/spotify/backstage/labels/rfc) - Help shape the technical direction
+- [FAQ](https://backstage.io/docs/FAQ) - Frequently Asked Questions
+- [Code of Conduct](CODE_OF_CONDUCT.md) - This is how we roll
+- [Adopters](ADOPTERS.md) - Companies already using Backstage
+- [Blog](https://backstage.io/blog/) - Announcements and updates
+- [Newsletter](https://mailchi.mp/spotify/backstage-community) - Subscribe to our email newsletter
+- Give us a star ⭐️ - If you are using Backstage or think it is an interesting project, we would love a star ❤️
+- [TechDocs Test Link](docs/overview/what-is-backstage.md)
 
-To invoke it via the API Gateway trigger,
+## License
 
-```shell
-curl https://6b2w0lh8p3.execute-api.eu-west-1.amazonaws.com/default/sample-service
-```
+Copyright 2020 Spotify AB.
+
+Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
