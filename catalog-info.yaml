@@ -10,5 +10,5 @@ metadata:
     datadoghq.com/dashboard-url: https://p.datadoghq.eu/sb/x5lc2ayfxeebsas1-6ad7c05c9211d7f93167b5101805f089
 spec:
   type: service
-  owner: john@example.com
+  owner: user:Irma12
   lifecycle: experimental
