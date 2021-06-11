@@ -24,9 +24,12 @@ metadata:
     snyk.io/org-name: roadie
     snyk.io/project-ids: 63ac09c4-fd65-4f53-b9b2-c31d2dee3291
     backstage.io/kubernetes-id: sample-service
-spec:
-  type: service
-  owner: engineering
-  lifecycle: experimental
-  providesApis:
-    - sample-service
+spec: 
+  type: business-unit
+  profile:
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
