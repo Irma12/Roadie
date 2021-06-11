@@ -6,7 +6,7 @@ metadata:
   annotations:
     projectId: "1"
     github.com/project-slug: Irma12/Roadie
-    backstage.io/techdocs-ref: url:https://github.com/Irma12/Roadie/tree/main
+    backstage.io/techdocs-ref: https://github.com/Irma12/Roadie/tree/main
     datadoghq.com/dashboard-url: https://p.datadoghq.eu/sb/x5lc2ayfxeebsas1-6ad7c05c9211d7f93167b5101805f089
 spec:
   type: service
