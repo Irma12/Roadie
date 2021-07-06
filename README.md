@@ -1,5 +1,4 @@
 ![headline](docs/assets/headline.png)
-![alt-text](docs/assets/headline.png "cc some-title")
 
 # [Backstage](https://backstage.io)
 
@@ -30,6 +29,16 @@ For more information go to [backstage.io](https://backstage.io) or join our [Dis
 🎉 Backstage is a CNCF Sandbox project. Read the announcement [here](https://backstage.io/blog/2020/09/23/backstage-cncf-sandbox).
 
 ## Project roadmap
+
+First add some secrets to the `.env` file in the root. See the `.env.sample` file for suggestions
+of required environment variables.
+
+Then run it locally like this:
+
+```shell
+
+```
+
 
 A detailed project roadmap, including already delivered milestones, is available [here](https://backstage.io/docs/overview/roadmap).
 
